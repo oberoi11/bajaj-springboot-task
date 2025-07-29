@@ -24,5 +24,5 @@ This repository contains the solution for the Bajaj Finserv Health Backend Quali
 ```bash
 git clone https://github.com/<your-username>/<your-repo>.git
 cd <your-repo>
-mvn spring-boot:run
-java -jar release/<your-jar-file-name>.jar
+./mvnw clean install
+java -jar target/demo-0.0.1-SNAPSHOT.jar
